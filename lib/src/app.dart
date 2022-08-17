@@ -1,3 +1,4 @@
+import 'package:depocut/app/ui/pages/home/home_page.dart';
 import 'package:flutter/material.dart';
 
 //* Nuestras importaciones
@@ -11,7 +12,7 @@ class MyApp extends StatelessWidget {
     // Este Widget permite la configuracion global de la applicacion
     return MaterialApp(
       home: Center(
-        child: HomePage()
+        child: PageMaps()
       ),
     );
   }
